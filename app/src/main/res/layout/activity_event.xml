@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pastel_peach"
+    android:weightSum="20"
+    tools:context=".EventActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@android:color/black"
+        android:id="@+id/tv_event_date"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/tv_event_name"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/tv_event_vreme"
+            android:textColor="@android:color/black"
+            android:textAllCaps="false" />
+
+        <TimePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"
+            android:layout_gravity="center"
+            android:id="@+id/tp_event"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_event_podsetnik"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_vertical"
+            android:textAllCaps="false"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:id="@+id/cb_event"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_lokacija"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_location"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/b_OK"
+            android:textSize="15dp"
+            android:textColor="@color/pastel_peach"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/b_OK"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/iv_weather_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_weather_temp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/b_save_event"
+        android:textAllCaps="false"
+        android:textColor="@color/pastel_peach"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/b_save_event"/>
+
+</LinearLayout>

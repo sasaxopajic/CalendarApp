@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Calendar App</string>
+    <string name="pregled">Izaberite tip pregleda:</string>
+    <string name="godina">Godina</string>
+    <string name="mesec">Mesec</string>
+    <string name="dan">Dan</string>
+    <string name="current_year">2020</string>
+    <string name="januar">JANUAR</string>
+    <string name="februar">FEBRUAR</string>
+    <string name="mart">MART</string>
+    <string name="april">APRIL</string>
+    <string name="maj">MAJ</string>
+    <string name="jun">JUN</string>
+    <string name="jul">JUL</string>
+    <string name="avgust">AVGUST</string>
+    <string name="septembar">SEPTEMBAR</string>
+    <string name="oktobar">OKTOBAR</string>
+    <string name="novembar">NOVEMBAR</string>
+    <string name="decembar">DECEMBAR</string>
+    <string name="add_button">+</string>
+
+    <string name="alert_dialog">Šta želite da uradite sa ovim događajem?</string>
+    <string name="alert_dialog_uredi">UREDI DOGAĐAJ</string>
+    <string name="alert_dialog_obrisi">OBRIŠI DOGAĐAJ</string>
+
+    <string name="tv_event_vreme">Vreme:</string>
+    <string name="tv_event_podsetnik">Podsetnik:</string>
+    <string name="tv_lokacija">Lokacija:</string>
+    <string name="b_OK">OK</string>
+    <string name="b_save_event">Sačuvaj događaj</string>
+</resources>

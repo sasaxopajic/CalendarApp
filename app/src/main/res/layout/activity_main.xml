@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+    </View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pregled"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/godina"
+            android:textSize="15dp"
+            android:id="@+id/godina" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/mesec"
+            android:textSize="15dp"
+            android:id="@+id/mesec" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+    </View>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="4"
+            android:id="@+id/layoutGodina">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50dp"
+                android:id="@+id/current_year"
+                android:textColor="@color/pink"
+                android:layout_margin="10dp"
+            />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="4"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/januar"
+                        android:textColor="@color/pink"
+                        android:background="@color/pastel_peach"
+                        android:layout_margin="5dp">
+
+                    </Button>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/februar"
+                        android:textColor="@color/pink"
+                        android:background="@color/pastel_peach"
+                        android:layout_margin="5dp">
+
+                    </Button>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/mart"
+                        android:textColor="@color/pink"
+                        android:background="@color/pastel_peach"
+                        android:layout_margin="5dp">
+
+                    </Button>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/april"
+                        android:textColor="@color/pink"
+                        android:background="@color/pastel_peach"
+                        android:layout_margin="5dp">
+
+                    </Button>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/maj"
+                        android:textColor="@color/pink"
+                        android:background="@color/pastel_peach"
+                        android:layout_margin="5dp">
+
+                    </Button>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/jun"
+                        android:textColor="@color/pink"
+                        android:background="@color/pastel_peach"
+                        android:layout_margin="5dp">
+
+                    </Button>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/jul"
+                        android:textColor="@color/pink"
+                        android:background="@color/pastel_peach"
+                        android:layout_margin="5dp">
+
+                    </Button>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/avgust"
+                        android:textColor="@color/pink"
+                        android:background="@color/pastel_peach"
+                        android:layout_margin="5dp">
+
+                    </Button>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/septembar"
+                        android:textColor="@color/pink"
+                        android:background="@color/pastel_peach"
+                        android:layout_margin="5dp">
+
+                    </Button>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/oktobar"
+                        android:textColor="@color/pink"
+                        android:background="@color/pastel_peach"
+                        android:layout_margin="5dp">
+
+                    </Button>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/novembar"
+                        android:textColor="@color/pink"
+                        android:background="@color/pastel_peach"
+                        android:layout_margin="5dp">
+
+                    </Button>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/decembar"
+                        android:textColor="@color/pink"
+                        android:background="@color/pastel_peach"
+                        android:layout_margin="5dp">
+
+                    </Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutMesec"
+            android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@+id/current_year"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:id="@+id/year">
+
+                </Button>
+
+                <CalendarView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:minDate="01/01/2020"
+                    android:id="@+id/calendar">
+
+                </CalendarView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutDan">
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

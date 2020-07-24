@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cf2960</color>
+    <color name="colorPrimaryDark">#910332</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="pink">#cf2960</color>
+    <color name="pastel_peach">#fae8d7</color>
+    <color name="white">#ffffff</color>
+</resources>
